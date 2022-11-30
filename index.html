@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>This paragraphcontains a lot of linesin the source code,but the browser ignores it.</p>
+    <p>This paragraphcontains a lot of spacesin the source code,but the browser ignores it.</p>
+
+    <p><b>This</b><i>paragraph</i>
+        contain<sub>s</sub> a lot of line<sup>s</sup>
+        in the source code, <br />
+        <hr />
+        but the browser ignores it.
+    </p>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <img src="god3.png" alt="Girl in a jacket" style="width:500px;height:600px;" title="Girl in a jacket" />
+
+    <figure>
+        <img src="god3.png" alt="Girl in a jacket" style="width:500px;height:600px;" title="Girl in a jacket" />
+        <br />
+        <figcaption>Girl in a jacket</figcaption>
+        <figure>
+        </figure>
+
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <th colspan="2"></th>
+                <th scope="col">Saturday</th>
+                <th scope="col" rowspan="3">Sunday</th>
+            </tr>
+            <tr>
+                <th scope="row">Tickets sold:</th>
+                <td>120</td>
+                <td>135</td>
+            </tr>
+            <tr>
+                <th scope="row">Total sales:</th>
+                <td>$600</td>
+                <td>$675</td>
+            </tr>
+            <tr>
+                <th colspan="2">test col 3</th>
+                <th colspan="2"></th>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">Geography</td>
+                <td>Math</td>
+                <td>Art</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th></th>
+                <th>ABC</th>
+                <th>BBC</th>
+                <th>CNN</th>
+            </tr>
+            <tr>
+                <th>6pm - 7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+            <tr>
+                <th>7pm - 8pm</th>
+                <td>Sport</td>
+                <td>Current Affairs</td>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Income</th>
+                    <th>Expenditure</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>1st January</th>
+                    <td>250</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <th>2nd January</th>
+                    <td>285</td>
+                    <td>48</td>
+                </tr><!-- additional rows as above -->
+                <tr>
+                    <th>31st January</th>
+                    <td>129</td>
+                    <td>64</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>7824</td>
+                    <td>1241</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <form action="#">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <input type="submit">
+            <input type="reset">
+
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+
+
+
+        <form>
+            <label for="username">Username:</label>
+            <br>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="pass">Password:</label>
+            <br>
+            <input type="password" id="pass" name="password">
+            <br>
+            <label for="textarea">tast textarea :</label>
+            <textarea rows="4" cols="40"></textarea>
+
+            <br>
+            <label for="r1">radio value m</label>
+            <input type="radio" value="M" checked name="redio_test">
+            <label for="r2">radio value w</label>
+            <input type="radio" value="W" name="redio_test">
+            <br>
+            <input type="checkbox" >
+            <select>
+                <option selected disabled>เลือก</option>
+                <option value="1">red</option>
+                <option value="2">red</option>
+            </select>
+
+            <br>
+            <input type="date">
+            <input type="datetime-local">
+            <br>
+            <input type="number">
+
+        </form>
+
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML"> 
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS"> 
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+
+        <form>  
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+        </form>
+
+
+</body>
+
+</html>
